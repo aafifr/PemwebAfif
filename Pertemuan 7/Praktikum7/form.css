@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-shadow: 1px 1px 2px -1px rgba(0,0,0,0.75); 
+  -moz-box-shadow: 1px 1px 2px -1px rgba(0,0,0,0.75); 
+  box-shadow: 1px 1px 2px -1px rgba(0,0,0,0.75);
+}
+
+.navbar a {
+  color: #ccc;
+  padding: 5px;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.navbar a small {
+  color: grey;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h2 {
+  font-weight: 400;
+}
+
+.content {
+  margin: auto;
+  max-width: fit-content;
+}
+
+tr td {
+  padding: 6px;
+}
+
+input, select {
+  height: 23px;
+}
+
+#nama,#tempatlahir, #tanggallahir {
+  width: 300px;
+}
+
+input, textarea, select {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+label {
+  font-size: 14px;
+  display: block;
+  text-align: end;
+}
+
+.simpan {
+  background-color: #0174BE;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.simpan:hover {
+  background-color: blue;
+  color: #ccc;
+}
+
+.batal {
+  background-color: #D83F31;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.batal:hover {
+  background-color: red;
+  color: #ccc;
+}

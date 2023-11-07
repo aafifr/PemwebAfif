@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Pemesanan</title>
+</head>
+<body>
+  
+<form action="http://blackgoosebistro.com/pizza.php" method="post">
+  <fieldset>
+   <legend style="font-size: 30pt;">FORM PEMESANAN</legend>
+
+    <h3>Black Goose Bistro | Pizza-on-Demand</h3>
+    <p>Our 12" wood fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour</p>
+  
+    <p>Your Information</p>
+    <table>
+     <tr>
+       <td>Name: </td>
+       <td>
+         <input type="text" name="customername" placeholder="Masukan Nama Anda" >
+       </td>
+     </tr>
+    
+      <tr>
+        <td>Address: </td>
+        <td>
+          <textarea name="address" id="address" cols="30" rows="5" placeholder="Alamat Anda" ></textarea>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Telp: </td>
+        <td>
+          <input type="number" name="telephone" placeholder="+62" >
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Email: </td>
+        <td>
+          <input type="email" name="email" placeholder="Masukan Email Anda" >
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Delivery Instructions: </td>
+        <td>
+          <textarea name="instructions" id="" cols="30" rows="5" placeholder="Masukan Teks"></textarea>
+        </td>
+      </tr>
+    </table>
+    
+    <p>
+      <b>Design your Dream Pizza:</b>
+      <br>
+      Pizza specs
+    </p>
+    
+     <dt>Crust (Choose One):</dt>
+        &ensp;<input type="radio" name="crust"> Classic White<br>
+        &ensp;<input type="radio" name="crust"> Multigrain<br>
+        &ensp;<input type="radio" name="crust"> Chesee-stuffed crust<br>
+        &ensp;<input type="radio" name="crust"> Gluten-free<br> <br>
+      
+      <dt>Toppings (Choose ad many as you want):</dt>
+          &ensp;<input type="checkbox" name="toppings1" value="red sauce"> <label for="toppings1">Red sauce</label><br>
+          &ensp;<input type="checkbox" name="toppings2" value="white sauce"> <label for="toppings2">White sauce</label><br>
+          &ensp;<input type="checkbox" name="toppings3" value="mozzarella"> <label for="toppings3">Mozzarella Cheese</label><br>
+          &ensp;<input type="checkbox" name="toppings4" value="pepperoni"> <label for="toppings4">Pepperoni</label><br>
+          &ensp;<input type="checkbox" name="toppings5" value="mushrooms"> <label for="toppings5">Mushrooms</label><br>
+          &ensp;<input type="checkbox" name="toppings6" value="peppers"> <label for="toppings6">Peppers</label><br>
+          &ensp;<input type="checkbox" name="toppings7" value="anchovies"> <label for="toppings7">Anchovies</label><br>      
+        
+        
+        <!-- Type Number -->
+        <p>Number 
+        <br>
+           <label for="nomor">How many pizzas:
+             <select name="pizzas" id="">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+             </select>
+                
+           </label>
+        </p>
+        
+        <!-- Type Button -->
+            <input type="submit" value="Bring me a pizza!"/>
+            <input type="reset" />          
+      
+ </fieldset>
+</form>
+  
+  
+</body>
+</html>

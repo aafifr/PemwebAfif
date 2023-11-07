@@ -1,0 +1,63 @@
+body {
+  background-color: #F3F0CA;
+}
+
+#header {
+  text-align: center;
+  background-color: #E1AA74;
+  color: blue;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+blockquote {
+  background-color: #F4CE14;
+  color: black;
+  border-style: dotted;
+  border-radius: 5px;
+}
+
+#soekarno {
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+}
+
+.menu ul, .gambar {
+  text-align: center;
+}
+
+.gambar img {
+  width: 24%;
+  border-radius: 8px;
+}
+
+.jawa {
+  font-size: 3em;
+  color: blue;
+}
+
+.isi, #profil, #beternak {
+  text-align: justify;
+}
+
+.koleksi {
+  background-color: #E1AA74;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.koleksi img {
+  width: 24%;
+  border-radius: 8px;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo h2 {
+  color: red;
+}
